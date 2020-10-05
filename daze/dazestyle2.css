@@ -1,0 +1,93 @@
+    html {
+        background-color: #de21ae;
+    }
+    
+    body {
+        background-color: #f3e944;
+        padding: 10px;
+    }
+    
+    h1 {
+        background-color: #dd8748;
+        font-family: 'Sansita Swashed', cursive;
+        text-align: center;
+        font-size: 50px;
+    }
+    /* styling for links */
+    
+    a:link {
+        background-color: #21aed9;
+        color: #f0774a;
+        text-decoration: none;
+        text-align: center;
+        font-family: "Sansita Swashed", serif;
+    }
+    
+    a:visited {
+        color: #f0774a;
+    }
+    
+    a:hover {
+        color: #21aed9;
+    }
+    
+    a.active {
+        color: #f0774a;
+    }
+    /*contains the eye buttons*/
+    
+    .box {
+        border: 10px dotted;
+        border-color: #dd8748;
+        background-color: #0ea5dc;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        justify-content: center;
+    }
+    /*image with button at center style code is referenced from https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
+    
+    .container {
+        position: relative;
+        width: 50%;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5em;
+    }
+    
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .container .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5em;
+    }
+    /* container and button for plans button */
+    
+    .box2 {
+        display: flex;
+        justify-content: center;
+        background-color: #0ea5dc;
+        padding: 10px;
+    }
+    
+    .box2 .btn2 {
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        border-radius: 5em;
+    }

@@ -1,0 +1,184 @@
+html {
+  background-color: #f0be2e;
+  margin: 10px;
+}
+
+/* asterisk means all elements */
+* {
+  box-sizing: border-box;
+}
+
+p.about {
+  border-style: dotted;
+  border-width: 5px;
+  font-size: 18px;
+  }
+ul {
+  font-size: 18px;
+}
+footer {
+  font-size: 22px;
+}
+
+body {
+  color: #bc1d74;
+}
+h1 {
+  color: #8d1736;
+  font-family: "Sansita Swashed", serif;
+  text-align: center;
+  background-color: #f0774a
+}h2 {
+  color: #f0774a;
+  font-family: "Sansita Swashed", serif;
+}
+h3 {
+  color: #21aed9;
+  font-family: "Sansita Swashed", serif;
+}
+
+/* styling for navigation bar */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #8d1736;
+}
+/* auto is the default value and the browser will calculate it */
+ul {
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+/* inline block allows the items of the list to be displayed horizontally; does not start a new line */
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+/* styling for links */
+a:link {
+  background-color: #21aed9;
+  color: #f0774a;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Sansita Swashed", serif;
+}
+
+a:visited {
+  color: #f0774a;
+}
+
+a:hover {
+  color: #21aed9;
+}
+
+a.active {
+  color: #f0774a;
+}
+
+/* for the h1 heading of the nav bar */
+#EllisNav {
+  position: absolute;
+  padding: 4px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 15px;
+  font-family: 'Sansita Swashed', serif;
+  color: #f0774a;
+}
+/* hover color for any link used in p */
+#inTextLink:hover {
+  color: #21aed9;
+  /* styling for about page */
+#aboutHeader {
+  background-color: #f0774a;
+  font-family: "Sansita Swashed", serif;
+  color: #f0774a;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 2px 2px #bd1f74;
+}
+
+.about {
+  font-size: 22px;
+  line-height: 2;
+  font-family: "Sansita Swashed", serif;
+  color: #f0774a;
+  background-color: #bd1f74;
+  padding: 15px;
+  display: table;
+}
+
+* {box-sizing: border-box}
+body {font-family: "Sansita Swashed", serif; margin:0}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a yellow background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #f0be2e;
+  }
+
+  /* Caption text */
+.text {
+  color: #8d1736;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #8d1736;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}

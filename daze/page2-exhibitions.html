@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <style type="p.dotted {border-style: dotted;}">
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="daze2.css">
+    <title>Chris Daze Ellis: About</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <header>
+        <h1><strong><a href="http://www.dazeworld.com/">Chris Daze Ellis</strong></h1>
+        </a>
+        <nav class="navBar">
+            <ul>
+                <li>
+                    <a href="daze-home.html">Home</a>
+                </li>
+                <li>
+                    <a href="page1-about.html">About</a>
+                </li>
+                <li>
+                    <a href="page2-exhibitions.html" class="active">Exhibitions</a>
+                </li>
+                <li><a href="daze-edu.html">Education</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<h1 id="exhibitionsHeader">Exhibitions</h1>
+
+<!-- slideshow -->
+<div style="text-align:center">
+    <div class="slider">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <div class="slideshow-container">
+        </div>
+
+        <div class="myslides">
+            <div class="numbertext">1 / 6</div>
+            <img src="fortunecookie.jpg" style="width:100%">
+            <div class="text">Chang Art Gallery, Beijing, China, Courtesy of Fortune Cookie Projects, 2010</div>
+        </div>
+
+        <div class="mmyslides">
+            <div class="numbertext">2 / 6</div>
+            <img src="indigodreams.jpg" style="width:100%">
+            <div class="text">TT Underground Gallery, New York, NY, 2014</div>
+        </div>
+
+        <div class="myslides">
+            <div class="numbertext">3 / 6</div>
+            <img src="nowandlater.jpg" style="width:100%">
+            <div class="text">Avantgarden Gallery, Milan Itay</div>
+        </div>
+
+        <div class="myslides">
+            <div class="numbertext">4 / 6</div>
+            <img src="greyscale.jpg" style="width:100%">
+            <div class="text">Wallach Art Gallery, Columbia University, New York, NY</div>
+        </div>
+
+        <div class="myslides">
+            <div class="numbertext">5 / 6</div>
+            <img src="portals.jpg" style="width:100%">
+            <div class="text">Speerstra Gallery, Paris, France</div>
+        </div>
+
+        <div class="myslides">
+            <div class="numbertext">6 / 6</div>
+            <img src="thejourney.jpg" style="width:100%">
+            <div class="text">Woodbury House, London, England</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("myslides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <!-- buttons -->
+    <footer>
+        <a href="daze-edu.html" class="next">NEXT</a>
+    </footer>
+    <!-- source: http://www.dazeworld.com/about -->
+    </body>
+    <html>
+
+    <!-- source: http://www.dazeworld.com/about -->

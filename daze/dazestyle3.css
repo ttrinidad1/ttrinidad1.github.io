@@ -1,0 +1,88 @@
+html {
+    background-color: #de21ae;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #8d1736;
+}
+
+
+/* auto is the default value and the browser will calculate it */
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+
+/* inline block allows the items of the list to be displayed horizontally; does not start a new line */
+
+li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+
+/* styling for links */
+
+a:link {
+    background-color: #21aed9;
+    color: #f0774a;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Sansita Swashed", cursive;
+}
+
+a:visited {
+    color: #f0774a;
+}
+
+a:hover {
+    color: #21aed9;
+}
+
+a.active {
+    color: #f0774a;
+}
+
+h1 {
+    color: #8d1736;
+    font-family: "Sansita Swashed", cursive;
+    text-align: center;
+    background-color: #f0774a
+}
+
+
+/* for the h1 heading of the nav bar */
+
+#EllisNav {
+    position: absolute;
+    padding: 4px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+    font-family: "Sansita Swashed", cursive;
+    color: #f0774a;
+}
+
+body {
+    background-color: #f3e944;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Sansita Swashed', cursive;
+    background-color: #dd8748;
+    border: 4px solid;
+    border-color: #0ea5dc;
+}
+
+img {
+    border: 3px solid;
+    border-color: black;
+    height: auto;
+    width: 600px;
+}
