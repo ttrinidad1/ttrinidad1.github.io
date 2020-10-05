@@ -1,0 +1,154 @@
+/* for future use
+font-family: 'Sansita Swashed', cursive;
+*/
+
+html {
+  background-color: #f0be2e;
+  margin: 10px;
+}
+
+/* asterisk means all elements */
+* {
+  box-sizing: border-box;
+}
+
+p.about {
+  border-style: dotted;
+  border-width: 5px;
+  font-size: 18px;
+  }
+ul {
+  font-size: 18px;
+}
+footer {
+  font-size: 22px;
+}
+
+body {
+  color: #bc1d74;
+}
+h1 {
+  color: #8d1736;
+  font-family: "Sansita Swashed", serif;
+  text-align: center;
+  background-color: #f0774a
+}
+h2 {
+  color: #f0774a;
+  font-family: "Sansita Swashed", serif;
+}
+h3 {
+  color: #21aed9;
+  font-family: "Sansita Swashed", serif;
+}
+
+/* styling for navigation bar */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #8d1736;
+}
+/* auto is the default value and the browser will calculate it */
+ul {
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+/* inline block allows the items of the list to be displayed horizontally; does not start a new line */
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+/* styling for links */
+a:link {
+  background-color: #21aed9;
+  color: #f0774a;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Sansita Swashed", serif;
+}
+
+a:visited {
+  color: #f0774a;
+}
+
+a:hover {
+  color: #21aed9;
+}
+
+a.active {
+  color: #f0774a;
+}
+
+/* for the h1 heading of the nav bar */
+#EllisNav {
+  position: absolute;
+  padding: 4px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 15px;
+  font-family: 'Sansita Swashed', serif;
+  color: #f0774a;
+}
+/* hover color for any link used in p */
+#inTextLink:hover {
+  color: #21aed9;
+  /* styling for about page */
+#aboutHeader {
+  background-color: #f0774a;
+  font-family: "Sansita Swashed", serif;
+  color: #f0774a;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 2px 2px #bd1f74;
+}
+
+.about {
+  font-size: 22px;
+  line-height: 2;
+  font-family: "Sansita Swashed", serif;
+  color: #f0774a;
+  background-color: #bd1f74;
+  padding: 15px;
+  display: table;
+}
+
+/* styling images on about page */
+#Chris {
+  width: 230px;
+  height: 260px;
+  float: left;
+  margin-left: 2px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  border: 10px solid #8d1736;
+}
+#PPOW {
+  margin-left: -245px;
+  width: 360px;
+  height: 250px;
+  border: 10px solid #8d1736;
+  border-radius: 50%;
+}
+
+#Seasons{
+  width: 350px;
+  height: 250px;
+  border: 10px solid #8d1736;
+  border-radius: 50%;
+}
+.aboutRow1{
+  display: flex;
+}
+
+.aboutColumn {
+  flex: 50%;
+  padding: 5px;
+  justify-content: center;
+
+.right {
+  float: right;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
